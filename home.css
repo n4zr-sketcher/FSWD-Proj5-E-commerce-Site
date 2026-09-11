@@ -1,0 +1,170 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Google Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-variation-settings:
+    "GRAD" 0;
+}
+
+.topNotifyBar {
+    padding: 10px;
+    display: flex;
+    background-color: #06281A;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    height: 25px;
+    flex-wrap: wrap;
+}
+
+.closeButton {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.truckimg {
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+}
+
+.moneyReturnimg{
+    width: 25px; height: 25px;
+    margin-right: 5px;
+}
+
+.topNotifyBar_sec1 {
+    
+    align-items: center;
+    display: flex;
+    margin-left: 10px;
+    padding-top: 5px; padding-bottom: 5px;
+}
+
+.topNotifyBar_sec2{
+    align-items: center;
+    margin-right: 79px;
+    display: flex;
+    padding: 5px;
+    padding-top: 5px; padding-bottom: 5px;
+}
+
+.topNotifyBar_sec3{
+    padding:5px;
+    padding-top: 5px; padding-bottom: 5px;
+}
+
+.logoimg{
+    width: 45px; height: 50px;
+}
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    align-items: center;
+    justify-content: space-between;
+    height: 55px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: white;
+    font-size: medium;
+
+}
+
+.navbar_sec1{
+    display: flex;
+    padding: 10px;
+}
+
+.navbar_sec1_1{
+    text-align: center;
+    margin-left: 3px;
+}
+
+
+.navbar_sec2 ul li{
+    list-style: none;
+}
+
+.navbar_sec2 ul{
+    display: flex;
+}
+
+.navbar_sec2 ul li a{
+    text-decoration: none;
+    color: black;
+    margin-left: 30px;
+    font-size: 16px;
+}
+
+.navbar_sec2 ul li a:hover{
+    text-decoration: underline;
+}
+
+.navbar_sec3{
+    display: flex;
+    gap: 15px;   
+    margin-right: 15px;
+}
+
+.navbar_sec3 img{
+    width: 25px; height:25px;
+    cursor: pointer;
+}
+
+.intro-image{
+    position: relative;
+}
+
+.intro-image img {
+    display: block;
+    width: 100%;
+    height: 430px;
+    margin-top: 5px;
+    object-fit: fill;
+}
+
+.intro-image_content{
+    position: absolute;
+    top: 100px;
+    margin-left: 10px;
+    padding: 30px; border-radius: 27px;
+    background-color:  rgba(17, 141, 63, 0.8);
+}
+
+.intro-image_content_p1{
+    padding: 5px;
+    width: fit-content;
+    border-radius: 10px;
+    background-color: rgb(224, 224, 159, 0.5);
+    font-size: 12px;
+}
+
+.intro-image_content_btn1{
+    padding: 10px;
+    margin-top: 10px; gap:5px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.intro-image_content_btn2{
+    padding: 10px;
+    margin-top: 10px; gap:5px;
+    border: none;
+    cursor: pointer;
+}
+
+.brands_item img{
+    height: 50px; width: 70px;
+}
