@@ -33,14 +33,18 @@ searchInput.addEventListener("keyup", function () {
 });
 
 
-var sidenav = document.getElementById("sidenav")
-var closenav = document.getElementById("closenav")
-var menuicon = document.getElementById("menuicon")
+var sidenav = document.getElementById("sidenav");
+var closenav = document.getElementById("closenav");
+var menuicon = document.getElementById("menu-icon") || document.getElementById("menuicon");
 
-menuicon.addEventListener("click", function(){
-    sidenav.style.right = "0"
-})
+if (menuicon && sidenav) {
+  menuicon.addEventListener("click", function () {
+    sidenav.style.right = "0";
+  });
+}
 
-closenav.addEventListener("click", function(){
-    sidenav.style.right = "-50%"
-})
+if (closenav && sidenav) {
+  closenav.addEventListener("click", function () {
+    sidenav.style.right = "-100%";
+  });
+}

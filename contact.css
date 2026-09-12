@@ -157,7 +157,7 @@ body {
 .side-navbar {
     background-color: #dcfce7;
     position: fixed;
-    z-index: 20;
+    z-index: 200;
     top: 0;
     right: -50%;
 
@@ -215,6 +215,7 @@ body {
     text-decoration: underline;
     color: #000;
 }
+
 
 .contact-header {
     background-color: #06281A;
