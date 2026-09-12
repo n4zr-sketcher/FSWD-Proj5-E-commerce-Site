@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Cart Picker</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./contact.css">
+</head>
+
+<body>
+
+     <section id="notifyBar">
+        <div class="topNotifyBar">
+            <div class="topNotifyBar_sec1">
+                <img src="./assests/delivery-truck.png" alt="truckimg" class="truckimg">
+                <p>Free Shipping on Orders Over ₹399</p>
+            </div>
+            
+            <div class="topNotifyBar_sec2">
+                <img src="./assests/return-of-investment.png" alt="moneyReturnimg" class="moneyReturnimg">
+                <p>30-Days Money Back Guarantee</p>
+            </div>
+            
+            <div class="topNotifyBar_sec3">
+                <img src="./assests/close_button.png" alt="closeButton" id="closeButton" class="closeButton">
+            </div>
+            
+        </div>
+     </section>
+
+    <nav class="navbar">
+        <a href="home.html" class="navbar_sec1">
+            <img src="./assests/shopping-logo.png" alt="Cart Picker Logo" class="logoimg">
+            <div class="navbar_sec1_1">
+                <h2>Cart Picker</h2>
+                <p>Shopify Store</p>
+            </div>
+        </a>
+
+        <div class="navbar_sec2">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="home.html#new-arrivals">New Arrival</a></li>
+                <li><a href="home.html#most-wanted">Most Wanted</a></li>
+                <li><a href="collections.html">Collections</a></li>
+                <li><a href="contact.html" class="active">Contact Us</a></li>
+            </ul>
+        </div>
+
+        <div class="navbar_sec3">
+            <img src="./assests/user-icon.png" alt="User Profile">
+            <a href="collections.html">
+                <img src="./assests/shopping-cart.png" alt="Shopping Cart">
+            </a>
+            <button class="menu-icon" id="menu-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <div class="side-navbar" id="side-navbar">
+        <div class="side-navbar-header">
+            <h3>Cart Picker</h3>
+            <span class="side-navbar-close" id="close-nav">&times;</span>
+        </div>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="home.html#new-arrivals">New Arrival</a></li>
+            <li><a href="home.html#most-wanted">Most Wanted</a></li>
+            <li><a href="collections.html">Collections</a></li>
+            <li><a href="contact.html" class="active">Contact Us</a></li>
+        </ul>
+    </div>
+
+    <header class="contact-header">
+        <h1>Get in Touch</h1>
+        <p>We'd love to hear from you! Send us a message or contact our team directly.</p>
+    </header>
+
+    <main class="contact-container">
+
+        <section class="contact-info-card">
+            <h2>Contact Information</h2>
+            <p style="color: #6b7280; font-size: 14px;">Have a question about an order or our collections? Feel free to reach out to us anytime.</p>
+
+            <div class="contact-item">
+                <div class="contact-icon">📍</div>
+                <div class="contact-details">
+                    <h4>Store Location</h4>
+                    <p>Cart Picker HQ, 4th Cross Street, Anna Nagar, Chennai, Tamil Nadu - 600040</p>
+                </div>
+            </div>
+
+            <div class="contact-item">
+                <div class="contact-icon">📞</div>
+                <div class="contact-details">
+                    <h4>Phone Number</h4>
+                    <p>+91 98765 43210 (Toll Free)</p>
+                    <p style="font-size: 12px; color: #9ca3af;">Mon to Sat: 9:00 AM - 8:00 PM</p>
+                </div>
+            </div>
+
+            <div class="contact-item">
+                <div class="contact-icon">✉️</div>
+                <div class="contact-details">
+                    <h4>Email Address</h4>
+                    <p>support@cartpicker.com</p>
+                    <p>orders@cartpicker.com</p>
+                </div>
+            </div>
+
+            <div class="contact-item">
+                <div class="contact-icon">🚚</div>
+                <div class="contact-details">
+                    <h4>Order Support</h4>
+                    <p>Fast track delivery status and easy 30-day returns assistance.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-form-card">
+            <h2>Send Us a Message</h2>
+
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="contact-name">Full Name *</label>
+                    <input type="text" id="contactName" placeholder="Enter your full name" required>
+                    <p style="color: red; display: none;" id="nameError">Name must required</p>
+                </div>
+
+                <div class="form-group">
+                    <label for="contact-email">Email Address *</label>
+                    <input type="email" id="contactEmail" placeholder="example@domain.com" required>
+                    <p style="color: red; display: none;" id="emailError">Email required</p>
+                </div>
+
+                <div class="form-group">
+                    <label for="contact-subject">Subject</label>
+                    <input type="text" id="contactSubject" placeholder="What is your message regarding?">
+                    <p style="color: red; display: none;" id="subjectError">Subject content required</p>
+                </div>
+
+                <div class="form-group">
+                    <label for="contact-message">Message *</label>
+                    <textarea id="contact-message" rows="5" placeholder="Write your message or inquiry here..." required></textarea>
+                </div>
+
+                <button type="submit" class="form-submit-btn">Send Message 🚀</button>
+
+                <div id="form-success" class="form-success-alert">
+                    ✅ <strong>Thank you!</strong> Your message has been sent successfully. Our support team will get back to you within 24 hours.
+                </div>
+            </form>
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="footer-col">
+                <h3>Cart Picker</h3>
+                <p>Your one-stop premium destination for fashion, daily essentials, watches, and accessories. Premium quality guaranteed.</p>
+            </div>
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="collections.html">Collections</a></li>
+                    <li><a href="home.html#new-arrivals">New Arrivals</a></li>
+                    <li><a href="home.html#most-wanted">Most Wanted</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Customer Support</h3>
+                <ul>
+                    <li><a href="contact.html">Track Order</a></li>
+                    <li><a href="contact.html">Return & Refund Policy</a></li>
+                    <li><a href="contact.html">Shipping Info</a></li>
+                    <li><a href="contact.html">Help Center</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Contact Us</h3>
+                <ul>
+                    <li>Email: support@cartpicker.com</li>
+                    <li>Phone: +91 98765 43210</li>
+                    <li>Location: Chennai, Tamil Nadu, India</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Cart Picker - All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

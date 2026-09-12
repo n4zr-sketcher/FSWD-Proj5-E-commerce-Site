@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,79 +8,442 @@
     <title>Home</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
     <!-- top notify bar  -->
-     <section id="notifyBar">
+    <section id="notifyBar">
         <div class="topNotifyBar">
             <div class="topNotifyBar_sec1">
                 <img src="./assests/delivery-truck.png" alt="truckimg" class="truckimg">
                 <p>Free Shipping on Orders Over ₹399</p>
             </div>
-            
+
             <div class="topNotifyBar_sec2">
                 <img src="./assests/return-of-investment.png" alt="moneyReturnimg" class="moneyReturnimg">
                 <p>30-Days Money Back Guarantee</p>
             </div>
-            
+
             <div class="topNotifyBar_sec3">
                 <img src="./assests/close_button.png" alt="closeButton" id="closeButton" class="closeButton">
             </div>
-            
+
         </div>
-     </section>
+    </section>
 
-     <!-- nav bar  -->
-     <div class="navbar">
-            <div class="navbar_sec1">
-                <img src="./assests/shopping-logo.png" alt="logo" class="logoimg">
-                <div class="navbar_sec1_1">
-                    <h2>Cart Picker</h2>
-                    <p>Shopify Store</p>
-                </div>
+    <!-- nav bar  -->
+    <nav class="navbar">
+        <a href="home.html" class="navbar_sec1">
+            <img src="./assests/shopping-logo.png" alt="Cart Picker Logo" class="logoimg">
+            <div class="navbar_sec1_1">
+                <h2>Cart Picker</h2>
+                <p>Shopify Store</p>
             </div>
+        </a>
 
-                <div class="navbar_sec2">
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">New Arrival</a></li>
-                        <li><a href="#">Most Wanted</a></li>
-                        <li><a href="#">Collections</a></li>
-                        <li><a href="#">Contact Us</a></li>
-                    </ul>
-                </div>
+        <div class="navbar_sec2">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="home.html#new-arrivals">New Arrival</a></li>
+                <li><a href="home.html#most-wanted">Most Wanted</a></li>
+                <li><a href="collections.html">Collections</a></li>
+                <li><a href="contact.html" class="active">Contact Us</a></li>
+            </ul>
+        </div>
 
-                <div class="navbar_sec3">
-                    <img src="./assests/user-icon.png" alt="user-icon">
-                    <img src="./assests/shopping-cart.png" alt="shopping-cart">
-                </div>
-                
-     </div>
+        <div class="navbar_sec3">
+            <img src="./assests/user-icon.png" alt="User Profile">
+            <a href="collections.html">
+                <img src="./assests/shopping-cart.png" alt="Shopping Cart">
+            </a>
+            <button class="menu-icon" id="menu-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
 
-        <!-- intro image -->
+    <!-- intro image  -->
 
-        <div class="intro-image">
+    <div class="intro-image">
         <img src="./assests/intro-image.png" alt="intro image">
-        
+
         <div class="intro-image_content">
             <p class="intro-image_content_p1">✨ New Collections</p>
-            <h1>Elevate Your Lifestyle with <span><h1 style="color: white;">Premium Products</h1></span></h1>
+            <h1>Elevate Your Lifestyle with <span>
+                    <h1 style="color: white;">Premium Products</h1>
+                </span></h1>
             <p>Discover carefully curated products designed for quality, stlye, and everyday comfort</p>
-            <button class="intro-image_content_btn1">Shop Now ➡</button> <button class="intro-image_content_btn2">Explore Collections</button>
+            <button class="intro-image_content_btn1">Shop Now ➡</button> <button
+                class="intro-image_content_btn2">Explore Collections</button>
         </div>
+    </div>
+
+    <!-- brands -->
+
+    <h2 style="padding-left: 10px;">Brands</h2>
+    <div class="brands">
+        <div class="brands_item">
+            <img src="./assests/brands-logo/adidas.png" alt="logo">
+            <p>Adidas</p>
         </div>
 
-        <!-- brands -->
-         <div class="brands">
-            <h2>Brands</h2>
-            <div class="brands_item">
-                <img src="./assests/brands-logo/adidas.png" alt="logo">
-                <p>Adidas</p>
+        <div class="brands_item">
+            <img src="./assests/brands-logo/steam.png" alt="logo">
+            <p>Steam</p>
+        </div>
+
+        <div class="brands_item">
+            <img src="./assests/brands-logo/nike.png" alt="logo">
+            <p>Nike</p>
+        </div>
+
+        <div class="brands_item">
+            <img src="./assests/brands-logo/polo.png" alt="logo">
+            <p>Assasian Polo</p>
+        </div>
+
+        <div class="brands_item">
+            <img src="./assests/brands-logo/discord.png" alt="logo">
+            <p>Discord</p>
+        </div>
+
+        <div class="brands_item">
+            <img src="./assests/brands-logo/adidas.png" alt="logo">
+            <p>Adidas</p>
+        </div>
+
+        <div class="brands_item">
+            <img src="./assests/brands-logo/steam.png" alt="logo">
+            <p>Steam</p>
+        </div>
+
+    </div>
+
+    <!-- New arrivals  -->
+    <div style="margin-top: 5px;">
+        <div class="new-arrivals_head">
+            <h2>New Arrivals</h2>
+            <a href="./collections.html">Collections ➡</a>
+        </div>
+        <div class="new-arrivals">
+            <div class="new-arrivals_item">
+                <img src="./assests/products-items/Analog-watch.jpg" alt="watch1">
+                <p style="font-weight: bold;">Analog Watch</p>
+                <p>₹399 <span><del>₹599</del></span></p>
+                <div style="display: flex; align-items: center;">
+                    <p>⭐⭐⭐⭐</p>
+                    <p style="margin-left: 5px;">(128)</p>
+                </div>
             </div>
 
-         </div>
+            <div class="new-arrivals_item">
+                <img src="./assests/products-items/shoes1. Mens Joan Sneakers" alt="watch1">
+                <p style="font-weight: bold;">Shoes</p>
+                <p>₹2999 <span><del>₹3599</del></span></p>
+                <div style="display: flex; align-items: center;">
+                    <p>⭐⭐⭐⭐⭐</p>
+                    <p style="margin-left: 5px;">(768)</p>
+                </div>
+            </div>
 
- <script src="./home.js"></script>
-    </body>
+            <div class="new-arrivals_item">
+                <img src="./assests/products-items/handbags1.jpg" alt="watch1">
+                <p style="font-weight: bold;">Handbag</p>
+                <p>₹799 <span><del>₹999</del></span></p>
+                <div style="display: flex; align-items: center;">
+                    <p>⭐⭐</p>
+                    <p style="margin-left: 5px;">(326)</p>
+                </div>
+            </div>
+
+            <div class="new-arrivals_item">
+                <img src="./assests/products-items/full-set1.jpg" alt="watch1">
+                <p style="font-weight: bold;">Full Set Pant and Shirt</p>
+                <p>₹3399 <span><del>₹5999</del></span></p>
+                <div style="display: flex; align-items: center;">
+                    <p>⭐⭐⭐</p>
+                    <p style="margin-left: 5px;">(514)</p>
+                </div>
+            </div>
+
+            <div class="new-arrivals_item">
+                <img src="./assests/products-items/kettle1.jpg" alt="watch1">
+                <p style="font-weight: bold;">Kettle</p>
+                <p>₹1399 <span><del>₹1599</del></span></p>
+                <div style="display: flex; align-items: center;">
+                    <p>⭐⭐⭐</p>
+                    <p style="margin-left: 5px;">(168)</p>
+                </div>
+            </div>
+
+            <div class="new-arrivals_item">
+                <img src="./assests/products-items/full-set2.jpg" alt="watch1">
+                <p style="font-weight: bold;">Shirt and Pant Combo</p>
+                <p>₹1999 <span><del>₹2599</del></span></p>
+                <div style="display: flex; align-items: center;">
+                    <p>⭐⭐⭐⭐⭐</p>
+                    <p style="margin-left: 5px;">(479)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- most Wanted -->
+    <div>
+        <div class="most-wanted_head">
+            <h2>Most Wanted</h2>
+        </div>
+
+        <div class="most-wanted">
+            <div class="most-wanted_item">
+                <div style="position: relative;">
+                    <img class="most-wanted_item_mainimg" src="./assests/products-items/Analog-watch.jpg" alt="watch1">
+                    <img class="most-wanted_saleimg" src="./assests/sale.png" alt="saleimg">
+                    <img class="most-wanted_wishlistimg" src="./assests/love.png" alt="whislist-ico">
+                </div>
+                <p style="font-weight: bold;">Analog Watch</p>
+                <p>₹399 <span><del>₹599</del></span></p>
+                <div style="display: flex; align-items: center;">
+                    <p>⭐⭐⭐⭐</p>
+                    <p style="margin-left: 5px;">(128)</p>
+                </div>
+            </div>
+
+            <div class="most-wanted_item">
+                <div style="position: relative;">
+                    <img class="most-wanted_item_mainimg" src="./assests/products-items/shoes1. Mens Joan Sneakers"
+                        alt="watch1">
+                    <img class="most-wanted_saleimg" src="./assests/sale.png" alt="saleimg">
+                    <img class="most-wanted_wishlistimg" src="./assests/love.png" alt="whislist-ico">
+                </div>
+                <p style="font-weight: bold;">Shoes</p>
+                <p>₹2999 <span><del>₹3599</del></span></p>
+                <div style="display: flex; align-items: center;">
+                    <p>⭐⭐⭐⭐⭐</p>
+                    <p style="margin-left: 5px;">(768)</p>
+                </div>
+            </div>
+
+            <div class="most-wanted_item">
+                <div style="position: relative;">
+                    <img class="most-wanted_item_mainimg" src="./assests/products-items/handbags1.jpg" alt="watch1">
+                    <img class="most-wanted_saleimg" src="./assests/sale.png" alt="saleimg">
+                    <img class="most-wanted_wishlistimg" src="./assests/love.png" alt="whislist-ico">
+                </div>
+                <p style="font-weight: bold;">Handbag</p>
+                <p>₹799 <span><del>₹999</del></span></p>
+                <div style="display: flex; align-items: center;">
+                    <p>⭐⭐</p>
+                    <p style="margin-left: 5px;">(326)</p>
+                </div>
+            </div>
+
+            <div class="most-wanted_item">
+                <div style="position: relative;">
+                    <img class="most-wanted_item_mainimg" src="./assests/products-items/full-set1.jpg" alt="watch1">
+                    <img class="most-wanted_saleimg" src="./assests/sale.png" alt="saleimg">
+                    <img class="most-wanted_wishlistimg" src="./assests/love.png" alt="whislist-ico">
+                </div>
+                <p style="font-weight: bold;">Full Set Pant and Shirt</p>
+                <p>₹3399 <span><del>₹5999</del></span></p>
+                <div style="display: flex; align-items: center;">
+                    <p>⭐⭐⭐</p>
+                    <p style="margin-left: 5px;">(514)</p>
+                </div>
+            </div>
+
+            <div class="most-wanted_item">
+                <div style="position: relative;">
+                    <img class="most-wanted_item_mainimg" src="./assests/products-items/kettle1.jpg" alt="watch1">
+                    <img class="most-wanted_saleimg" src="./assests/sale.png" alt="saleimg">
+                    <img class="most-wanted_wishlistimg" src="./assests/love.png" alt="whislist-ico">
+                </div>
+                <p style="font-weight: bold;">Kettle</p>
+                <p>₹1399 <span><del>₹1599</del></span></p>
+                <div style="display: flex; align-items: center;">
+                    <p>⭐⭐⭐</p>
+                    <p style="margin-left: 5px;">(168)</p>
+                </div>
+            </div>
+
+            <div class="most-wanted_item">
+                <div style="position: relative;">
+                    <img class="most-wanted_item_mainimg" src="./assests/products-items/full-set2.jpg" alt="watch1">
+                    <img class="most-wanted_saleimg" src="./assests/sale.png" alt="saleimg">
+                    <img class="most-wanted_wishlistimg" src="./assests/love.png" alt="whislist-ico">
+                </div>
+                <p style="font-weight: bold;">Shirt and Pant Combo</p>
+                <p>₹1999 <span><del>₹2599</del></span></p>
+                <div style="display: flex; align-items: center;">
+                    <p>⭐⭐⭐⭐⭐</p>
+                    <p style="margin-left: 5px;">(479)</p>
+                </div>
+
+                
+            </div>
+
+                        <div class="most-wanted_item">
+                <div style="position: relative;">
+                    <img class="most-wanted_item_mainimg" src="./assests/products-items/Analog-watch.jpg" alt="watch1">
+                    <img class="most-wanted_saleimg" src="./assests/sale.png" alt="saleimg">
+                    <img class="most-wanted_wishlistimg" src="./assests/love.png" alt="whislist-ico">
+                </div>
+                <p style="font-weight: bold;">Analog Watch</p>
+                <p>₹399 <span><del>₹599</del></span></p>
+                <div style="display: flex; align-items: center;">
+                    <p>⭐⭐⭐⭐</p>
+                    <p style="margin-left: 5px;">(128)</p>
+                </div>
+            </div>
+
+            <div class="most-wanted_item">
+                <div style="position: relative;">
+                    <img class="most-wanted_item_mainimg" src="./assests/products-items/shoes1. Mens Joan Sneakers"
+                        alt="watch1">
+                    <img class="most-wanted_saleimg" src="./assests/sale.png" alt="saleimg">
+                    <img class="most-wanted_wishlistimg" src="./assests/love.png" alt="whislist-ico">
+                </div>
+                <p style="font-weight: bold;">Shoes</p>
+                <p>₹2999 <span><del>₹3599</del></span></p>
+                <div style="display: flex; align-items: center;">
+                    <p>⭐⭐⭐⭐⭐</p>
+                    <p style="margin-left: 5px;">(768)</p>
+                </div>
+            </div>
+
+            <div class="most-wanted_item">
+                <div style="position: relative;">
+                    <img class="most-wanted_item_mainimg" src="./assests/products-items/handbags1.jpg" alt="watch1">
+                    <img class="most-wanted_saleimg" src="./assests/sale.png" alt="saleimg">
+                    <img class="most-wanted_wishlistimg" src="./assests/love.png" alt="whislist-ico">
+                </div>
+                <p style="font-weight: bold;">Handbag</p>
+                <p>₹799 <span><del>₹999</del></span></p>
+                <div style="display: flex; align-items: center;">
+                    <p>⭐⭐</p>
+                    <p style="margin-left: 5px;">(326)</p>
+                </div>
+            </div>
+
+            <div class="most-wanted_item">
+                <div style="position: relative;">
+                    <img class="most-wanted_item_mainimg" src="./assests/products-items/full-set1.jpg" alt="watch1">
+                    <img class="most-wanted_saleimg" src="./assests/sale.png" alt="saleimg">
+                    <img class="most-wanted_wishlistimg" src="./assests/love.png" alt="whislist-ico">
+                </div>
+                <p style="font-weight: bold;">Full Set Pant and Shirt</p>
+                <p>₹3399 <span><del>₹5999</del></span></p>
+                <div style="display: flex; align-items: center;">
+                    <p>⭐⭐⭐</p>
+                    <p style="margin-left: 5px;">(514)</p>
+                </div>
+            </div>
+
+            <div class="most-wanted_item">
+                <div style="position: relative;">
+                    <img class="most-wanted_item_mainimg" src="./assests/products-items/kettle1.jpg" alt="watch1">
+                    <img class="most-wanted_saleimg" src="./assests/sale.png" alt="saleimg">
+                    <img class="most-wanted_wishlistimg" src="./assests/love.png" alt="whislist-ico">
+                </div>
+                <p style="font-weight: bold;">Kettle</p>
+                <p>₹1399 <span><del>₹1599</del></span></p>
+                <div style="display: flex; align-items: center;">
+                    <p>⭐⭐⭐</p>
+                    <p style="margin-left: 5px;">(168)</p>
+                </div>
+            </div>
+
+            <div class="most-wanted_item">
+                <div style="position: relative;">
+                    <img class="most-wanted_item_mainimg" src="./assests/products-items/full-set2.jpg" alt="watch1">
+                    <img class="most-wanted_saleimg" src="./assests/sale.png" alt="saleimg">
+                    <img class="most-wanted_wishlistimg" src="./assests/love.png" alt="whislist-ico">
+                </div>
+                <p style="font-weight: bold;">Shirt and Pant Combo</p>
+                <p>₹1999 <span><del>₹2599</del></span></p>
+                <div style="display: flex; align-items: center;">
+                    <p>⭐⭐⭐⭐⭐</p>
+                    <p style="margin-left: 5px;">(479)</p>
+                </div>
+
+                
+            </div>
+        </div>
+    </div>
+
+    <!-- poster  -->
+
+    <div class="poster">
+        <div class="poster-sec1">
+            <img src="./assests/ad-img.png" alt="poster">
+        </div>
+
+        <div class="poster-sec2">
+            <h1>Limited Offer</h1>
+            <p>35% OFF on this for the first 30 Customers</p>
+            <br>
+            <a href="./collections.html" style="padding: 10px; border-radius: 8px; background-color: white; text-decoration: none; color: black;">Shop Now ➡</a>
+        </div>
+    </div>
+
+    <!-- new letter input  -->
+    <div class="news-letter">
+        <h1>Join Our News Letter</h1>
+        <p>Signup for our email newspaper to get exclusive discounts, updates, and more</p>
+        <input type="text" class="news-letter_input">
+        <p class="mews-letter_btn">Subscribe ➡</p>
+    </div>
+
+
+
+    <!-- footer  -->
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="footer-col">
+                <h3>Cart Picker</h3>
+                <p>Your one-stop premium destination for fashion, daily essentials, watches, and accessories. Premium
+                    quality guaranteed.</p>
+            </div>
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="collections.html">Collections</a></li>
+                    <li><a href="home.html#new-arrivals">New Arrivals</a></li>
+                    <li><a href="home.html#most-wanted">Most Wanted</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Customer Support</h3>
+                <ul>
+                    <li><a href="contact.html">Track Order</a></li>
+                    <li><a href="contact.html">Return & Refund Policy</a></li>
+                    <li><a href="contact.html">Shipping Info</a></li>
+                    <li><a href="contact.html">Help Center</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Contact Us</h3>
+                <ul>
+                    <li>Email: support@cartpicker.com</li>
+                    <li>Phone: +91 98765 43210</li>
+                    <li>Location: Chennai, Tamil Nadu, India</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Cart Picker - All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+
 </html>
