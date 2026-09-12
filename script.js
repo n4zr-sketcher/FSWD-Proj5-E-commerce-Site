@@ -50,3 +50,15 @@ var notifyBar = document.getElementById("notifyBar");
 closeButton.addEventListener("click", function () {
   notifyBar.style.display = "none";
 });
+
+var sidenav = document.getElementById("sidenav")
+var closenav = document.getElementById("closenav")
+var menuicon = document.getElementById("menuicon")
+
+menuicon.addEventListener("click", function(){
+    sidenav.style.right = "0"
+})
+
+closenav.addEventListener("click", function(){
+    sidenav.style.right = "-50%"
+})
