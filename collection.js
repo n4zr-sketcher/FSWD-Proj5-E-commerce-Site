@@ -1,3 +1,27 @@
+var notifyBar = document.getElementById("notifyBar");
+var closeButton = document.getElementById("closeButton");
+
+if (closeButton && notifyBar) {
+  closeButton.addEventListener("click", function () {
+    notifyBar.style.display = "none";
+  });
+}
+
+var contactName = document.getElementById("contactName");
+var nameError = document.getElementById("nameError");
+
+if (contactName && nameError) {
+  contactName.addEventListener("input", function () {
+    if (contactName.value == "") {
+      nameError.style.display = "block";
+    } else {
+      nameError.style.display = "none";
+    }
+  });
+}
+
+
+
 // Research for input suggest
 
 var searchInput = document.getElementById("searchInput");
