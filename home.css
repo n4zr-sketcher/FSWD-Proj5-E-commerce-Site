@@ -4,6 +4,15 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+#new-arrivals,
+#most-wanted {
+    scroll-margin-top: 80px;
+}
+
 
 body {
     font-family: "Google Sans", sans-serif;
