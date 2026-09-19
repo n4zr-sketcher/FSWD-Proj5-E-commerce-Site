@@ -103,10 +103,28 @@
 
 
     <!-- collections -->
-    <div style="margin-top: 5px;">
+    <div class="collections-layout">
+        <aside class="filter-box">
+            <h2>Filter Products</h2>
+
+            <h3>Category</h3>
+            <label><input type="checkbox" class="category-filter" value="watch"> Watches</label>
+            <label><input type="checkbox" class="category-filter" value="shoes"> Shoes</label>
+            <label><input type="checkbox" class="category-filter" value="handbag"> Handbags</label>
+            <label><input type="checkbox" class="category-filter" value="shirt"> Clothes</label>
+            <label><input type="checkbox" class="category-filter" value="kettle"> Home</label>
+
+            <h3>Price</h3>
+            <label><input type="checkbox" class="price-filter" value="under-500"> Under ₹500</label>
+            <label><input type="checkbox" class="price-filter" value="500-1500"> ₹500 - ₹1500</label>
+            <label><input type="checkbox" class="price-filter" value="over-1500"> Above ₹1500</label>
+
+            <button id="clearFilters" type="button">Clear Filters</button>
+        </aside>
+
+        <section class="collections-products">
         <div class="new-arrivals_head">
             <h2>New Arrivals</h2>
-            <a href="./collections.html">Collections ➡</a>
         </div>
         <div class="new-arrivals" id="container">
             <div class="new-arrivals_item " >
@@ -290,6 +308,7 @@
             </div>
 
         </div>
+        </section>
     </div>
 
 <div id="noResult" class="noResult" style=>

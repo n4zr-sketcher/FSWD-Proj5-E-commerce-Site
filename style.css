@@ -253,6 +253,58 @@ body {
 
 /* new arrivals */
 
+.collections-layout {
+    display: flex;
+    gap: 20px;
+    padding: 15px;
+    align-items: flex-start;
+}
+
+.filter-box {
+    width: 220px;
+    flex-shrink: 0;
+    padding: 18px;
+    background-color: white;
+    border: 1px solid #111827;
+    border-radius: 12px;
+}
+
+.filter-box h2 {
+    font-size: 20px;
+    margin-bottom: 18px;
+}
+
+.filter-box h3 {
+    font-size: 15px;
+    margin: 16px 0 8px;
+}
+
+.filter-box label {
+    display: block;
+    margin: 9px 0;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.filter-box input {
+    margin-right: 7px;
+}
+
+#clearFilters {
+    margin-top: 15px;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 6px;
+    background-color: #06281A;
+    color: white;
+    cursor: pointer;
+}
+
+.collections-products {
+    flex: 1;
+    min-width: 0;
+}
+
 .new-arrivals_head {
     padding: 10px;
     display: flex;
@@ -466,6 +518,24 @@ body {
         margin-left: 100px;
     }
 
+    .collections-layout {
+        padding: 10px;
+        gap: 10px;
+    }
+
+    .filter-box {
+        width: 165px;
+        padding: 12px;
+    }
+
+    .filter-box h2 {
+        font-size: 16px;
+    }
+
+    .filter-box label {
+        font-size: 12px;
+    }
+
     .noResult{
         font-size: 16px;
         font-weight: normal;
@@ -480,6 +550,24 @@ body {
         width: 92%;
         margin: 15px auto;
         padding: 8px 14px;
+    }
+
+    .collections-layout {
+        display: block;
+    }
+
+    .filter-box {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .filter-box h2 {
+        display: inline-block;
+        margin-right: 15px;
+    }
+
+    .filter-box h3 {
+        margin-top: 10px;
     }
 
     .new-arrivals_head {
